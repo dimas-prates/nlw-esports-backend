@@ -1,0 +1,17 @@
+# Compiled folders
+node_modules/
+dist/
+build/
+# Logs
+yarn-debug.log
+yarn-error.log
+tsconfig.tsbuildinfo
+# Version Control
+.gitignore
+.git/
+#Heroku files
+.slugignore
+#Docker
+.dockerignore
+# JS Files
+**/*.js
