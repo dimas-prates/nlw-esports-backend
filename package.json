@@ -68,7 +68,7 @@
         ":adhesive_bandage: fix": {
           "description": "A bug fix"
         },
-        ":memo: doc": {
+        ":memo: docs": {
           "description": "Documentation only changes"
         },
         ":pencil2: style": {
