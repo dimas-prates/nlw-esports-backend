@@ -93,8 +93,7 @@
           "description": "Other changes that don't modify src or test files"
         },
         ":rewind: revert": {
-          "description": "Reverts a previous commit",
-          "prefix": "tsdts"
+          "description": "Reverts a previous commit"
         }
       }
     }
