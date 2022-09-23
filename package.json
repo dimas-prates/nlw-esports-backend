@@ -65,8 +65,7 @@
       "path": "./node_modules/cz-conventional-changelog",
       "types": {
         ":sparkles: feat": {
-          "description": "A new feature",
-          "title": "Features"
+          "description": "A new feature"
         },
         ":adhesive_bandage: fix": {
           "description": "A bug fix"
