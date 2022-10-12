@@ -19,7 +19,7 @@ process.on("uncaughtException", (error, origin) => {
   server.close(() => { process.exit(1); });
   setTimeout(() => { process.exit(1); }, 1000).unref();
 });
-process.on("uncaughtException", (reason) => {
+process.on("unhandledRejection", (reason) => {
   console.log(`APP (PID:${processId}) received ${reason}`);
   server.close(() => { process.exit(1); });
   setTimeout(() => { process.exit(1); }, 1000).unref();
